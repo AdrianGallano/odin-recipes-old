@@ -32,18 +32,34 @@ main{
 .introduction{
     display: flex;
     flex-direction: column;
+    padding: 0 2em;
 }
 
 h1{
-    margin: 1rem;
+    margin: .5em;
     align-self: center;
+    text-align: center;
 }
 
 a{
-    margin: 1rem;
+
+    font-family: 'Supermercado One', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    margin: 0 0 0 5%;
+    transition: 500ms;
 }
 
+a:hover{
+    padding: 0 .5em;
 
+}
+
+hr{
+    border-color: black;
+    margin-bottom: 1rem;
+}
 
 .bear{
     /* Bear */
@@ -52,3 +68,7 @@ a{
     margin-top: 5em;
 }
 
+.links{
+    display: flex;
+    width: 100%;
+}
