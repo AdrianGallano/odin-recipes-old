@@ -73,19 +73,27 @@ hr{
     width: 100%;
 }
 
-.bearicon{
+@media(max-width:800px){
+    aside{
+        display: none;
+    }
+}
+
+aside{
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 30px;
+    bottom: 40px;
     height: 5em;
     opacity: .8;
 }
 
-.bearicon:hover{
+.intro-odin{
+    font-size: 1.5rem;
+}
+
+aside:hover{
     position: fixed;
     transition: 500ms ease-in-out;
-    right: 20px;
-    bottom: 20px;
-    height: 7em;
+    height: 9em;
     opacity: .8;
 }
