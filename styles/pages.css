@@ -28,49 +28,10 @@ main{
     flex-direction: column;
     width: 100%;
 }
-
-.introduction{
-    display: flex;
-    flex-direction: column;
-    padding: 0 2em;
-}
-
 h1{
     margin: .5em;
     align-self: center;
     text-align: center;
-}
-
-a{
-
-    font-family: 'Supermercado One', cursive;
-    text-decoration: none;
-    color: black;
-    font-size: 1.6rem;
-    margin: 0 0 .5em 5%;
-    transition: 500ms;
-}
-
-a:hover{
-    padding: 0 .5em;
-
-}
-
-hr{
-    border-color: black;
-    margin-bottom: 1rem;
-}
-
-.bear{
-    /* Bear */
-    width: 100%;
-    border: 5px solid white;
-    margin-top: 5em;
-}
-
-.links{
-    display: flex;
-    width: 100%;
 }
 
 
