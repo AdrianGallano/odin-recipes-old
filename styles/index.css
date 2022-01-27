@@ -47,7 +47,7 @@ a{
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
-    margin: 0 0 0 5%;
+    margin: 0 0 .5em 5%;
     transition: 500ms;
 }
 
@@ -71,4 +71,21 @@ hr{
 .links{
     display: flex;
     width: 100%;
+}
+
+.bearicon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 5em;
+    opacity: .8;
+}
+
+.bearicon:hover{
+    position: fixed;
+    transition: 500ms ease-in-out;
+    right: 20px;
+    bottom: 20px;
+    height: 7em;
+    opacity: .8;
 }
