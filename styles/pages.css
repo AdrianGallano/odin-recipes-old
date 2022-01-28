@@ -43,11 +43,8 @@ h2{
 
 
 /* bearr */
-@media(max-width:800px){
-    aside{
-        display: none;
-    }
-}
+
+
 
 aside{
     position: fixed;
@@ -66,10 +63,12 @@ aside:hover{
     transition: 500ms ease-in-out;
     height: 9rem;
     opacity: .8;
+
 }
 
 
 /* table customization */
+
 table{
     width: 35%;
 }
@@ -89,4 +88,15 @@ th{
     position: fixed;
     bottom: 10px;
     left: 10px;
+}
+
+@media(max-width:800px){
+    aside{
+        display: none;
+    }
+    
+    table{
+        width: 90%;
+    }
+
 }
